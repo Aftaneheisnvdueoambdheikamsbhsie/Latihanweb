@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BELAJAR TABEL HTML5</title>
+    <style>
+        body {
+            background-color: #f0f8ff; /* Soft light blue */
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #0073e6; /* Darker blue */
+            color: white;
+            padding: 20px 0;
+        }
+        h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+        marquee {
+            font-size: 20px;
+            color: #ffcc00; /* Golden yellow */
+        }
+        h2 {
+            font-size: 16px;
+            color: #ffcc00;
+            margin-top: 10px;
+            font-weight: normal;
+        }
+        hr {
+            border: 1px solid #ffffff;
+            width: 80%;
+            margin: 20px auto;
+        }
+        .content {
+            padding: 20px;
+        }
+        .student-info {
+            list-style: none;
+            padding: 0;
+            text-align: left;
+            max-width: 300px;
+            margin: 0 auto;
+            font-size: 18px;
+            color: #333;
+        }
+        .student-info li {
+            margin-bottom: 10px;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #0073e6;
+            color: white;
+            font-size: 18px;
+        }
+        td {
+            background-color: #ffffff;
+            color: #333;
+            font-size: 16px;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>DAFTAR PROGRAM STUDI INFORMATIKA UNINDRA</h1>
+    <marquee>Selamat datang di Program Studi Informatika Unindra!</marquee>
+    <h2>Jl. Raya Tengah No.80, Ps. Rebo, Jakarta Timur</h2>
+    <hr>
+</header>
+
+<div class="content">
+    <ul class="student-info">
+        <li><strong>Identitas Mahasiswa:</strong></li>
+        <li>NPM: </li>
+        <li>Nama: </li>
+        <li>Kelas: </li>
+        <li>Semester: </li>
+        <li>Prodi: </li>
+    </ul>
+
+    <table border="1">
+        <tr>
+            <th>Nama</th>
+            <th>Kelas</th>
+            <th>NPM</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>Vito Akbar Muharram</td>
+            <td>R5N</td>
+            <td>202243501306</td>
+            <td>Mahasiswa aktif</td>
+        </tr>
+        <tr>
+            <td>Afta Aulia Mifda</td>
+            <td>R5N</td>
+            <td>202243501355</td>
+            <td>Mahasiswa aktif</td>
+        </tr>
+        <tr>
+            <td>Reza Taraga Aditya</td>
+            <td>R5N</td>
+            <td>202243501367</td>
+            <td>Mahasiswa aktif</td>
+        </tr>
+    </table>
+</div>
+
+<footer>
+    <p>&copy; Universitas Indraprasta PGRI Jakarta 2024. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
